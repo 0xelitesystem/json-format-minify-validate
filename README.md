@@ -1,8 +1,8 @@
-# JSON Formatter and Validator
+# JSON Format Minify Validate
 
 This tool formats, minifies, and validates JSON in the browser. It uses the browser's own JSON parser, so what it accepts matches what your code will accept, and on an error it reports the parser's message, which usually names where the problem is.
 
-**Live demo:** https://0xelitesystem.github.io/json-formatter-and-validator/
+**Live demo:** https://0xelitesystem.github.io/json-format-minify-validate/
 
 ## What it does
 
@@ -34,8 +34,8 @@ Everything runs in your browser. Nothing you type is sent anywhere, stored, or s
 Open `index.html` in any modern browser, or host it as a static page. No build step, no dependencies, no network calls.
 
 ```
-git clone https://github.com/0xelitesystem/json-formatter-and-validator
-cd json-formatter-and-validator
+git clone https://github.com/0xelitesystem/json-format-minify-validate
+cd json-format-minify-validate
 ```
 
 Then open `index.html`, or serve the folder with `python -m http.server` and visit http://localhost:8000.
